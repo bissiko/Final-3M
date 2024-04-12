@@ -26,6 +26,17 @@
       <version>RELEASE</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>5.0.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>Final-3M-Quest1-SO</finalName>
