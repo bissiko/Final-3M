@@ -18,9 +18,9 @@ public class QuestRepo {
     }
     private Quest loadQuestData(String path) throws IOException {
         ClassLoader loader = getClass().getClassLoader();
-        try(InputStream imputStream = loader.getResourceAsStream(path)) {
-            assert imputStream != null;
-            try (Reader reader = new InputStreamReader(imputStream)){
+        try(InputStream inputStream = loader.getResourceAsStream(path)) {
+            assert inputStream != null;
+            try (Reader reader = new InputStreamReader(inputStream)){
                 Gson gson = new Gson();
                 Type questMapType = new TypeToken<Quest>(){}.getType();
                 return gson.fromJson(reader, questMapType);

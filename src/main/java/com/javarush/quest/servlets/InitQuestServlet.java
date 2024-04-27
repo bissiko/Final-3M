@@ -23,7 +23,7 @@ public class InitQuestServlet extends BaseQuestServlet {
         session.setAttribute(TITLE_ATTRIBUTE_NAME, service.getTitle());
         session.setAttribute(STORY_ATTRIBUTE_NAME, service.getStory());
 
-        defineBGImage(session, service, getServletContext());
+//        defineBGImage(session, service, getServletContext());
     }
 
 }

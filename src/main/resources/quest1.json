@@ -1,23 +1,23 @@
 {
-  "title": "",
-  "story": "",
+  "title": "Shevchenko Taras",
+  "story": "Data from Shevchenko Taras",
   "decisions": {
     "root": {
-      "prompt": "",
+      "prompt": "When was born Shevchenko Taras?",
       "options": [
       {
-        "title": "",
-        "story": "",
+        "title": "It was 1799",
+        "story": "1799",
         "next": "root-1"
       },
         {
-          "title": "",
-          "story": "",
+          "title": "It was 1814",
+          "story": "1814",
           "next": "root-2"
         },
         {
-          "title": "",
-          "story": "",
+          "title": "It was 1825",
+          "story": "1825",
           "next": "root-3"
         }
       ]
@@ -43,22 +43,22 @@
       ]
     },
     "root-2": {
-      "prompt": "",
+      "prompt": "You are right! Good! Next question: How old was he when he was ransomed from the serfs?",
       "options": [
         {
-          "title": "",
-          "story": "",
-          "next": ""
+          "title": "It was 24",
+          "story": "24",
+          "next": "root-4"
         },
         {
-          "title": "",
-          "story": "",
-          "next": ""
+          "title": "It was 26",
+          "story": "26",
+          "next": "root-5"
         },
         {
-          "title": "",
-          "story": "",
-          "next": ""
+          "title": "It was 32",
+          "story": "32",
+          "next": "root-6"
         }
       ]
     },
